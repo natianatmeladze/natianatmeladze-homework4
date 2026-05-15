@@ -20,32 +20,34 @@ body {
   height: 32px;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 20px;
   margin-top: 20px;
+  vertical-align: middle;
 }
 .user-name {
   display: inline-block;
   color: #32343a;
   line-height: 100%;
   font-weight: 500;
-  margin: 0;
+  padding-top: 20px;
+  padding-left: 12px;
+  vertical-align: middle;
 }
 .main-text {
   color: #32343a;
   line-height: 150%;
   font-weight: 600;
-  margin: 16px 0px 0px 20px;
+  padding-top: 16px;
 }
 .description {
   font-weight: 400;
   color: #71747b;
   line-height: 165%;
-  margin: 10px 0px 0px 20px ;
+  padding-top: 10px;
 }
 .read-more-text {
   color: #1b54fe;
   line-height: 100%;
-  margin: 16px 0px 20px 20px;
+  padding: 16px 0px 20px 0px;
 }
 .main-text,
 .read-more-text {
@@ -55,4 +57,7 @@ body {
 .user-name,
 .description {
   font-size: 16px;
+}
+.text-wrapper {
+  padding-left: 20px;
 }
